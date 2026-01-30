@@ -1,0 +1,38 @@
+name,vegetarian,diabetic_friendly,hypertension_friendly,weight_goal
+Idli,true,true,true,loss
+Dosa,true,true,true,maintain
+Upma,true,true,true,maintain
+Poha,true,true,true,maintain
+Ragi Mudde,true,true,true,maintain
+Roti (Whole Wheat),true,true,true,maintain
+Paratha (Plain),true,false,false,gain
+Bajra Roti,true,true,true,maintain
+Jowar Roti,true,true,true,maintain
+Brown Rice,true,true,true,maintain
+Khichdi (Moong Dal),true,true,true,maintain
+Dal Tadka,true,true,true,maintain
+Rajma,true,true,true,maintain
+Chole,true,true,true,maintain
+Curd Rice,true,true,true,maintain
+Sambar,true,true,true,maintain
+Rasam,true,true,true,loss
+Paneer Tikka,true,true,true,maintain
+Palak Paneer,true,true,true,maintain
+Mixed Veg Sabzi,true,true,true,loss
+Bhindi Masala,true,true,true,maintain
+Baingan Bharta,true,true,true,maintain
+Tinda Sabzi,true,true,true,maintain
+Kadhi,true,true,true,maintain
+Masala Oats,true,true,true,loss
+Sprouts Salad,true,true,true,loss
+Fruit Chaat,true,true,true,loss
+Buttermilk,true,true,true,maintain
+Nimbu Pani (no sugar),true,true,true,loss
+Grilled Chicken,false,true,true,loss
+Tandoori Chicken,false,true,true,loss
+Fish Curry,false,true,true,maintain
+Grilled Fish,false,true,true,loss
+Egg Bhurji,false,true,true,maintain
+Omelette,false,true,true,maintain
+Mutton Curry,false,false,false,gain
+

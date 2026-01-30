@@ -1,0 +1,237 @@
+name,vegetarian,diabetic_friendly,hypertension_friendly,weight_goal
+Perly (Jaouda),true,false,false,loss
+Lait (Jaouda),true,true,true,loss
+Fromage blanc nature (MILKY FOOD PROFESSIONAL),true,true,true,maintain
+uht jaouda 1L,true,true,true,loss
+Jben (Jaouda),true,false,false,gain
+Marmite Yeast Extract,true,false,false,gain
+Lait Frais (centrale danone),true,true,true,loss
+Margarine de table (lilia),true,false,false,gain
+Prince Chocolate Cookies (Lu),true,false,false,gain
+Lindt Excellence 90% (Lindt&Sprüngli),true,false,true,gain
+Nutella (Ferrero),true,false,true,gain
+tonik (Bimo),true,false,true,gain
+levure pâtisserie,true,false,true,maintain
+"Gerblé - Sesame Cookie, 230g (8.2oz)",true,false,false,gain
+Confiture de fraise (Délicia),true,false,false,gain
+Yaourt nature (Jaouda),true,true,true,loss
+Mayonnaise  Original recipe (Star),true,false,false,gain
+Sourdough White Ciabattin Bread (Jason’s),true,false,false,maintain
+Dark Chocolate 85% Cocoa (J.D. Gross),true,false,true,gain
+Proper Sourdough (Jason's Sourdough),true,false,false,maintain
+Sourdough Grains & Seeds (Jason's),true,false,false,maintain
+La hollandaise cheddar p64,true,false,false,gain
+Mandeln (Alesto),true,false,true,gain
+Star Branded Iodized Salt,true,false,false,maintain
+Ketchup star 310 g,true,false,true,loss
+Cosumar Sucre En Lingot Pour Le Thé 1 kg,true,false,true,gain
+Cashew Nuts (Alesto),true,false,true,gain
+Nutella 350g (Ferrero),true,false,true,gain
+Henry’s (Henry's),true,false,false,gain
+Assil (Danone),true,false,true,loss
+Salim,true,false,false,loss
+Cremy (jaouda),true,true,true,loss
+Nutella  sagir,true,false,true,gain
+Cream cheese (Original),true,false,true,gain
+Spreadable Slightly Salted (Lurpak),true,false,false,gain
+Organic 70% Dark Chocolate Bar (Green & Black's),true,false,true,gain
+jibal jben,true,true,false,maintain
+KING COOKIES (Excelo),true,false,true,gain
+sauce tomate cuisinée (solis),true,true,false,loss
+Sable coco Henry s 42g (Henry's),true,false,false,gain
+Notenmix Mélange de Noix ongebrand - non grillé (Alesto Selection),true,false,true,gain
+Dost Milk,true,false,false,loss
+margarine la prairie 225g,true,false,false,gain
+biscuits (nutella),true,false,false,gain
+AUTHENTIQUE (wasa),true,false,false,gain
+Excellence Noir Intense 70% Cacao (Lindt),true,false,true,gain
+Familia 200g,true,false,true,gain
+Star vinaigre de table BLANC,true,true,true,loss
+Nocciolata (Rigoni Di Asiago),true,false,true,gain
+Pâte à tartiner noisettes et cacao (Bonne Maman),true,false,true,gain
+Weetabix,true,false,true,gain
+Lightly Sea Salted (Tyrrell's),true,false,false,gain
+Intense dark chocolate (Green and black),true,false,true,gain
+Excellence 85% Cacao Chocolat Noir Puissant Lindt % Lindt,true,false,true,gain
+Tartine doux (Primevère),true,false,false,gain
+611251753912 (sos),true,true,false,loss
+Filled - Dark Chocolate (Bjorg),true,false,false,gain
+Confiture De Fraises 430 G (El Baraka),true,false,true,gain
+NOIR INTENSE 74% CACAO (fin CARRÉ),true,false,true,gain
+Pur beurre de cacahuète (Jardin Bio),true,false,true,gain
+Lait Entier UHT (Jaouda),true,true,true,loss
+Organic Lightly Salted Wholegrain Low Fat Rice Cakes (Kallo),true,false,true,gain
+Skyr Nature (Yoplait),true,true,true,loss
+Mayonnaise (Star),true,false,false,gain
+Pain de mie grandes tranches Seigle & Graines 500g (La Boulangère),true,false,false,gain
+JASON'S SOURDOUGH 07 SUPERB SPROUTED GRAINS,true,false,false,maintain
+Nocciolata bio (Rigoni di Asiago),true,false,true,gain
+Fine Rye Crispbread - Fibre (Wasa),true,false,false,gain
+Krisprolls complets sans sucres ajoutés,true,false,false,gain
+14 Maxi Tranches complet sans sucres ajoutés (Jacquet),true,false,false,maintain
+Henry’s,true,false,false,gain
+Confiture d'abricot (Delicia),true,false,true,gain
+PESTO alla GENOVESE (Barilla),true,false,false,gain
+Cruesli - Mixed Nuts (Quaker),true,false,true,gain
+Momo black (Excelo),true,false,false,gain
+poulain,true,false,true,gain
+Tomato Ketchup (Heinz),true,false,false,loss
+Original (LU),true,true,false,maintain
+Idéal,true,false,true,gain
+Merendino (Bimo),true,false,false,gain
+Yogurt Banana (Danone),true,false,true,loss
+مارغرين المائدة (Lilia),true,false,false,gain
+6111184000213 (el baraka),true,false,true,maintain
+Jebli (Centrale),true,false,false,gain
+70% chocolate (Lindt & Sprüngli),true,false,true,gain
+Nescafé (Nescafe),true,false,false,maintain
+Primevère bio doux tartine & cuisson,true,false,false,gain
+Vegan Bouillon powder (Marigold),true,false,false,maintain
+Eyoo cover (EXCELO),true,false,true,gain
+Tendre nature,true,false,true,loss
+NATURAL YOGURT (Milbona Lidl),true,true,true,maintain
+Yaourt Grec Muesli - Jaouda - 110g,true,false,true,maintain
+Dark Rye Crispbread (Ryvita),true,false,false,gain
+Danino (Danone),true,false,true,maintain
+Pipas,true,false,true,gain
+Be Nuts ! - Pâte à tartiner Cacahuète (Andros),true,false,false,gain
+"Gerblé - Apple Hazelnut Cookie, 230g (8.2oz)",true,false,true,gain
+Le Beurre Tendre Doux (Elle & Vire),true,false,true,gain
+Family Pack (Weetabix),true,false,true,gain
+Aveia em flocos finos Lidl (CROWNFIELD),true,false,true,gain
+Organic Vegetable Stock Cubes (Kallø),true,true,false,loss
+ألبان الحليب الجديد (Albane),true,true,true,loss
+4 Garlic & Herb Kebabs (Wicked Kitchen),true,false,false,maintain
+Trios (Aperitivos company),true,false,false,gain
+Chocolate 85% Cocoa (Lindt EXCELLENCE),true,false,true,gain
+Dalaa 550 feuilles,true,false,false,maintain
+Le Lait demi écrémé (Jaouda),true,true,true,loss
+Dark Chocolate 70% (J.D. Gross),true,false,true,gain
+Flocons d'avoine (Bjorg),true,false,true,gain
+Tofoo Naked (The Tofoo Co.),true,true,true,maintain
+Lait Frais 15 jours (Chergui),true,true,true,loss
+Carré Frais (Elle & Vire),true,true,false,loss
+La prairie classique (margafrique),true,false,true,gain
+Pringles Original,true,false,false,gain
+Crunchy oats & honey (Nature Valley),true,false,false,gain
+Ghilal Yaourt zr3 (Jaouda),true,false,true,loss
+"Gerble - Fig Bran Cookie, 210g (7.5oz) (Gerblé)",true,false,true,gain
+Levure de bière (Gerblé),true,false,false,gain
+Croustillant Chocolat (Bjorg),true,false,true,gain
+Wholegrain Rye Bread (Lidl),true,false,false,maintain
+Pain De Mie Bio (La Boulangère),true,false,false,gain
+Schokolade Excellence 99% Kakao (Lindt&Sprüngli),true,false,true,gain
+Seed Sensations (Hovis),true,false,false,gain
+sardines huile d olive (Parmentier),false,false,false,gain
+"Huile de table équilibrée riche en vitamines A,E,D3 (Lesieur)",true,false,true,gain
+Nestlé Dessert,true,false,true,gain
+Petit beurre (Bé),true,false,true,gain
+Pains au lait x10 (Pasquier),true,false,true,gain
+Milka Alpine Milk Chocolate Bar,true,false,true,gain
+Moutarde 10.50 g (Star),true,false,false,maintain
+Bakery Co. 5 The Original Bagels (New York Bakery Co),true,false,true,maintain
+Sliced ​​Brioche (La Boulangère),true,false,false,gain
+Croissance réduit en sucre (Jaouda),true,true,true,loss
+Beurre Frais Pasteurisé (Jaouda),true,false,true,gain
+Philadelphia (Mondelez International),true,false,false,gain
+High Protein Chocolate Pudding (Milbona),true,true,true,loss
+BEANZ In a rich tomato sauce (HEINZ),true,true,false,loss
+Real Mayonnaise (Hellmann's),true,false,false,gain
+King cookies choco (Excelo),true,false,true,gain
+Corn Relish (Deli Originals Fresh),true,false,false,maintain
+Vegetable Fat Spread with 10% Olive Oil (Bertolli),true,false,false,gain
+Pesto Rosso (Barilla),true,false,false,gain
+Sirop d'Agave (Sunny Via),true,false,true,gain
+"Dark Chocolate, 70% (Fairglobe)",true,false,true,gain
+Fruit & Nut Mix (Alesto),true,false,true,gain
+Fresh Square - Plain (Elle&Vire),true,false,false,gain
+Mayonnaise (Hellmann's),true,false,false,gain
+Peripella,true,false,true,gain
+Yaourt tendre,true,false,true,maintain
+Vanille (alpro),true,false,true,loss
+Beurre bio cacahuète (Ethiquable),true,false,true,gain
+Weetabix Original 95% Wholegrain Wheat Cereal,true,false,true,gain
+5% Greek Yogurt (Fage),true,true,true,loss
+36 Wheat Bisks (Harvest Morn),true,false,true,gain
+Rye & Mixed Seed Sourdough Bread (Tesco),true,false,false,gain
+Doux 70% noir subtil (Lindt),true,false,true,gain
+La gâche tranchée (La Fournée Dorée),true,false,false,gain
+Bol Bol Ketchup (Bol&Bol),true,false,false,maintain
+Tranches Au Goût Cheddar (Ideal),true,false,false,gain
+St hubert bio doux 230g ss hdp,true,false,false,gain
+Sour Cream & Onion Potato Chips (Pringles),true,false,false,gain
+Assaisonnement aromatisé au citron (Star),true,true,true,loss
+"Muesli Raisin, Figue, Abricot (Bjorg)",true,false,true,gain
+Arome MAGGI (Nestlé),true,true,false,loss
+Levure rafiaa,true,true,false,loss
+Menguy's Peanut 100%,true,false,true,gain
+Pure Maple Syrup (Maple joe),true,false,false,gain
+Tartines campagne 450g (La boulangere),true,false,false,gain
+Muscly la force pour grandir (Jaouda),true,false,true,maintain
+Chocolat Noir 92% cacao (Dark Excellente),true,false,true,gain
+Pepsil (Maître Jean Pierre),true,false,false,gain
+Seeded Sourdough Bread (Specially Selected),true,false,false,gain
+Biscoff Creamy (Lotus),true,false,false,gain
+Granola (LU),true,false,false,gain
+Concentré de tomates Aicha,true,true,true,loss
+Olla,true,true,false,loss
+Cracotte Céréales Complètes (lu),true,false,false,gain
+2 Bars Milk and Hazelnuts (Kinder),true,false,true,gain
+Special Muesli 30% fruits & noix (Jordans),true,false,true,gain
+Runny Honey imp (Rowse),true,false,true,gain
+Ecuador dark chocolate (Tesco finest),true,false,false,gain
+Skyr | Natural Fat Free | 0% Fat (Arla),true,true,true,loss
+Chips (Kettle),true,false,false,gain
+Pâte d'arachide (Artesto),true,false,false,gain
+Flora Buttery,true,false,false,gain
+wasa (Barilla),true,false,false,gain
+Greek Style Yogurt (Milbona),true,true,true,maintain
+Henrys Sable Coco Biscuit 85g,true,false,false,gain
+Cracotte (LU),true,false,false,gain
+"Gerblé - Grape Biscuit 16pc, 270g (9.6oz)",true,false,true,gain
+Seriously Good Times Mayonnaise (Heinz),true,false,false,gain
+Mayfine,true,false,true,gain
+Nesquik Cocoa (Nestlé),true,false,false,gain
+Nutri+ avoine chocolat (Bjorg),true,false,false,gain
+BN Chocolat,true,false,false,gain
+Everyday White Rolls (Jason's),true,false,false,maintain
+Organic Chicken Stock Cubes 8 Pack (Kallø),false,true,false,loss
+Strawberry Jam (Bonne Maman),true,false,true,maintain
+digestives (McVitie's),true,false,false,gain
+Quaker Rolled Oats,true,false,true,gain
+Idli,true,true,true,loss
+Dosa,true,true,true,maintain
+Upma,true,true,true,maintain
+Poha,true,true,true,maintain
+Ragi Mudde,true,true,true,maintain
+Roti (Whole Wheat),true,true,true,maintain
+Paratha (Plain),true,false,false,gain
+Bajra Roti,true,true,true,maintain
+Jowar Roti,true,true,true,maintain
+Brown Rice,true,true,true,maintain
+Khichdi (Moong Dal),true,true,true,maintain
+Dal Tadka,true,true,true,maintain
+Rajma,true,true,true,maintain
+Chole,true,true,true,maintain
+Curd Rice,true,true,true,maintain
+Sambar,true,true,true,maintain
+Rasam,true,true,true,loss
+Paneer Tikka,true,true,true,maintain
+Palak Paneer,true,true,true,maintain
+Mixed Veg Sabzi,true,true,true,loss
+Bhindi Masala,true,true,true,maintain
+Baingan Bharta,true,true,true,maintain
+Tinda Sabzi,true,true,true,maintain
+Kadhi,true,true,true,maintain
+Masala Oats,true,true,true,loss
+Sprouts Salad,true,true,true,loss
+Fruit Chaat,true,true,true,loss
+Buttermilk,true,true,true,maintain
+Nimbu Pani (no sugar),true,true,true,loss
+Grilled Chicken,false,true,true,loss
+Tandoori Chicken,false,true,true,loss
+Fish Curry,false,true,true,maintain
+Grilled Fish,false,true,true,loss
+Egg Bhurji,false,true,true,maintain
+Omelette,false,true,true,maintain
+Mutton Curry,false,false,false,gain

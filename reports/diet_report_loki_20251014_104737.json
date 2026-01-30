@@ -1,0 +1,25 @@
+{
+  "profile": {
+    "name": "loki",
+    "age": 19,
+    "weight_status": "Normal",
+    "health_condition": "Normal",
+    "diet_preference": "Normal",
+    "weight_kg": 45.0,
+    "height_cm": 170.0
+  },
+  "ranked_suggestions": [
+    {
+      "suggestion": "Balanced diet",
+      "categories": [
+        "Normal"
+      ]
+    },
+    {
+      "suggestion": "Include fruits, vegetables, proteins, and carbs",
+      "categories": [
+        "Normal"
+      ]
+    }
+  ]
+}

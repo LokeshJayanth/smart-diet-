@@ -1,0 +1,63 @@
+{
+  "profile": {
+    "name": "Loki",
+    "age": 35,
+    "weight_status": "Overweight",
+    "health_condition": "Diabetic",
+    "diet_preference": "Vegetarian",
+    "weight_kg": 92.0,
+    "height_cm": 172.0,
+    "bmi": 31.1
+  },
+  "ranked_suggestions": [
+    {
+      "suggestion": "Avoid sugar",
+      "categories": [
+        "Diabetic"
+      ]
+    },
+    {
+      "suggestion": "Eat more vegetables",
+      "categories": [
+        "Diabetic",
+        "Vegetarian"
+      ]
+    },
+    {
+      "suggestion": "Include whole grains",
+      "categories": [
+        "Diabetic"
+      ]
+    },
+    {
+      "suggestion": "Avoid fried foods",
+      "categories": [
+        "Overweight"
+      ]
+    },
+    {
+      "suggestion": "Exercise regularly",
+      "categories": [
+        "Overweight"
+      ]
+    },
+    {
+      "suggestion": "Low-calorie diet",
+      "categories": [
+        "Overweight"
+      ]
+    },
+    {
+      "suggestion": "Avoid meat",
+      "categories": [
+        "Vegetarian"
+      ]
+    },
+    {
+      "suggestion": "Include pulses and legumes",
+      "categories": [
+        "Vegetarian"
+      ]
+    }
+  ]
+}

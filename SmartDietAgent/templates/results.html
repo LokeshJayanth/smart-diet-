@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Diet Suggestions</title>
+    <style>
+      :root {
+        --red-600: #dc2626;
+        --red-700: #b91c1c;
+        --red-100: #fee2e2;
+        --border: #e5e7eb;
+        --muted: #6b7280;
+      }
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; background: #fff; color: #111827; }
+      .container { max-width: 840px; margin: 0 auto; padding: 2rem 1rem 3rem; }
+      .title { display: flex; align-items: baseline; gap: .5rem; color: var(--red-700); }
+      .card { padding: 1.5rem; border: 1px solid var(--border); border-radius: 12px; box-shadow: 0 1px 2px rgba(0,0,0,.04); background: #fff; }
+      .muted { color: var(--muted); }
+      h2 { margin: .25rem 0 1rem; color: var(--red-700); }
+      h3 { margin-top: 1.25rem; color: var(--red-700); }
+      ul { padding-left: 1.25rem; }
+      .badge { background: var(--red-100); color: var(--red-700); font-weight: 700; padding: .25rem .5rem; border-radius: 6px; font-size: .85rem; }
+      a.button { display: inline-block; margin-top: 1rem; background: var(--red-700); color: white; padding: .5rem .75rem; border-radius: 8px; text-decoration: none; font-weight: 600; }
+      a.button:hover { background: var(--red-600); }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <span class="badge">Diet Agent</span>
+        <h2>Diet suggestions for {{ name }}</h2>
+      </div>
+      <div class="card">
+        {% if bmi %}
+          <p class="muted">BMI inferred: {{ bmi }}{% if inferred_weight_status %} → weight status: {{ inferred_weight_status }}{% endif %}</p>
+        {% endif %}
+
+        <h3>Rule-based suggestions (top 6)</h3>
+        <ul>
+        {% for s in ranked %}
+          <li>
+            {{ s }}
+            {% set cats = explanations.get(s, []) %}
+            {% if cats and cats|length %}
+              <span class="muted"> ({{ ", ".join(cats) }})</span>
+            {% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+
+        {% if recommended_foods and recommended_foods|length %}
+          <h3>Recommended foods (top 6)</h3>
+          <ul>
+          {% for f in recommended_foods %}
+            <li>{{ f }}</li>
+          {% endfor %}
+          </ul>
+        {% endif %}
+
+        <a class="button" href="/">Back</a>
+      </div>
+    </div>
+  </body>
+  </html>
+
+

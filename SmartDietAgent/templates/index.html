@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Smart Diet Agent</title>
+    <style>
+      :root {
+        --red-600: #dc2626;
+        --red-700: #b91c1c;
+        --red-100: #fee2e2;
+        --border: #e5e7eb;
+        --muted: #6b7280;
+      }
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; background: #fff; color: #111827; }
+      .container { max-width: 840px; margin: 0 auto; padding: 2rem 1rem 3rem; }
+      .header { display: flex; align-items: center; gap: .75rem; margin-bottom: 1rem; }
+      .badge { background: var(--red-100); color: var(--red-700); font-weight: 700; padding: .25rem .5rem; border-radius: 6px; font-size: .85rem; }
+      h1 { margin: 0; font-size: 1.75rem; color: var(--red-700); }
+      p.lead { margin: .25rem 0 1.25rem; color: var(--muted); }
+      .card { padding: 1.5rem; border: 1px solid var(--border); border-radius: 12px; box-shadow: 0 1px 2px rgba(0,0,0,.04); background: #fff; }
+      .section-title { margin: 1rem 0 .5rem; font-size: 1rem; color: var(--red-700); }
+      label { display: block; margin-top: .5rem; font-weight: 600; }
+      .hint { display: block; font-weight: 400; color: var(--muted); font-size: .85rem; margin-top: .125rem; }
+      input, select { width: 100%; padding: .625rem .75rem; margin-top: .25rem; border: 1px solid #d1d5db; border-radius: 8px; }
+      .grid { display: grid; gap: 1rem; }
+      .grid-2 { grid-template-columns: 1fr 1fr; }
+      .actions { display: flex; gap: .75rem; margin-top: 1.25rem; }
+      button { background: var(--red-700); color: white; padding: .75rem 1rem; border: 0; border-radius: 8px; cursor: pointer; font-weight: 600; }
+      button:hover { background: var(--red-600); }
+      .note { margin-top: .75rem; color: var(--muted); font-size: .9rem; }
+      @media (max-width: 640px) { .grid-2 { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <span class="badge">Diet Agent</span>
+        <h1>Personalized diet suggestions</h1>
+      </div>
+      <p class="lead">Enter a few details. We’ll infer BMI-weight status if you provide weight and height, and tailor suggestions and foods accordingly.</p>
+
+      <div class="card">
+        <form method="post" action="/suggest">
+          <div class="section">
+            <div class="section-title">Profile</div>
+            <div class="grid grid-2">
+              <div>
+                <label for="name">Name
+                  <input id="name" type="text" name="name" placeholder="John" />
+                  <span class="hint">Used in the report and results.</span>
+                </label>
+              </div>
+              <div>
+                <label for="age">Age
+                  <input id="age" type="number" name="age" placeholder="30" min="1" />
+                  <span class="hint">Years</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="section-title">Health & preferences</div>
+            <div class="grid grid-2">
+              <div>
+                <label for="health_condition">Health Condition
+                  <select id="health_condition" name="health_condition">
+                    {% for o in condition_opts %}
+                    <option value="{{ o }}">{{ o }}</option>
+                    {% endfor %}
+                  </select>
+                  <span class="hint">Impacts rule priority (e.g., Diabetic, Hypertension).</span>
+                </label>
+              </div>
+              <div>
+                <label for="diet_preference">Diet Preference
+                  <select id="diet_preference" name="diet_preference">
+                    {% for o in diet_opts %}
+                    <option value="{{ o }}">{{ o }}</option>
+                    {% endfor %}
+                  </select>
+                  <span class="hint">Choose Vegetarian or NonVegetarian to tune foods and rules.</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="section-title">Weight details (optional)</div>
+            <div class="grid grid-2">
+              <div>
+                <label for="weight_status">Weight Status
+                  <select id="weight_status" name="weight_status">
+                    <option value="">Auto (via BMI)</option>
+                    {% for o in weight_opts %}
+                    <option value="{{ o }}">{{ o }}</option>
+                    {% endfor %}
+                  </select>
+                  <span class="hint">Leave blank to infer from BMI if weight & height are provided.</span>
+                </label>
+              </div>
+              <div></div>
+            </div>
+            <div class="grid grid-2">
+              <div>
+                <label for="weight_kg">Weight (kg)
+                  <input id="weight_kg" type="number" step="any" min="0" inputmode="decimal" name="weight_kg" placeholder="92" />
+                </label>
+              </div>
+              <div>
+                <label for="height_cm">Height (cm)
+                  <input id="height_cm" type="number" step="any" min="0" inputmode="decimal" name="height_cm" placeholder="172" />
+                </label>
+              </div>
+            </div>
+            <div class="note">We never store your inputs on the server. They’re used only to compute suggestions in-memory.</div>
+          </div>
+
+          <div class="actions">
+            <button type="submit">Get suggestions</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  </html>
+
+
