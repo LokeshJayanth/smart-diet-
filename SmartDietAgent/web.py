@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from agent import SmartDietAgent
+from SmartDietAgent.agent import SmartDietAgent
 
 
 app = Flask(__name__)

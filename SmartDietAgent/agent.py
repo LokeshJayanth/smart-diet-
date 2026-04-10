@@ -1,4 +1,4 @@
-from knowledge_base import rules, CATEGORY_PRIORITY, load_foods_csv
+from SmartDietAgent.knowledge_base import rules, CATEGORY_PRIORITY, load_foods_csv
 import re
 import json
 import os

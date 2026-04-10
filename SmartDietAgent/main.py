@@ -1,4 +1,4 @@
-from agent import SmartDietAgent
+from SmartDietAgent.agent import SmartDietAgent
 import argparse
 import sys
 
